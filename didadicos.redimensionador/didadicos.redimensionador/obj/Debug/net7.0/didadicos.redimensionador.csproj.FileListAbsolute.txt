@@ -1,0 +1,15 @@
+C:\Workspace\Curso DotNet\Exercício01\didadicos.redimensionador\didadicos.redimensionador\bin\Debug\net7.0\didadicos.redimensionador.exe
+C:\Workspace\Curso DotNet\Exercício01\didadicos.redimensionador\didadicos.redimensionador\bin\Debug\net7.0\didadicos.redimensionador.deps.json
+C:\Workspace\Curso DotNet\Exercício01\didadicos.redimensionador\didadicos.redimensionador\bin\Debug\net7.0\didadicos.redimensionador.runtimeconfig.json
+C:\Workspace\Curso DotNet\Exercício01\didadicos.redimensionador\didadicos.redimensionador\bin\Debug\net7.0\didadicos.redimensionador.dll
+C:\Workspace\Curso DotNet\Exercício01\didadicos.redimensionador\didadicos.redimensionador\bin\Debug\net7.0\didadicos.redimensionador.pdb
+C:\Workspace\Curso DotNet\Exercício01\didadicos.redimensionador\didadicos.redimensionador\obj\Debug\net7.0\didadicos.redimensionador.csproj.AssemblyReference.cache
+C:\Workspace\Curso DotNet\Exercício01\didadicos.redimensionador\didadicos.redimensionador\obj\Debug\net7.0\didadicos.redimensionador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\Curso DotNet\Exercício01\didadicos.redimensionador\didadicos.redimensionador\obj\Debug\net7.0\didadicos.redimensionador.AssemblyInfoInputs.cache
+C:\Workspace\Curso DotNet\Exercício01\didadicos.redimensionador\didadicos.redimensionador\obj\Debug\net7.0\didadicos.redimensionador.AssemblyInfo.cs
+C:\Workspace\Curso DotNet\Exercício01\didadicos.redimensionador\didadicos.redimensionador\obj\Debug\net7.0\didadicos.redimensionador.csproj.CoreCompileInputs.cache
+C:\Workspace\Curso DotNet\Exercício01\didadicos.redimensionador\didadicos.redimensionador\obj\Debug\net7.0\didadicos.redimensionador.dll
+C:\Workspace\Curso DotNet\Exercício01\didadicos.redimensionador\didadicos.redimensionador\obj\Debug\net7.0\refint\didadicos.redimensionador.dll
+C:\Workspace\Curso DotNet\Exercício01\didadicos.redimensionador\didadicos.redimensionador\obj\Debug\net7.0\didadicos.redimensionador.pdb
+C:\Workspace\Curso DotNet\Exercício01\didadicos.redimensionador\didadicos.redimensionador\obj\Debug\net7.0\didadicos.redimensionador.genruntimeconfig.cache
+C:\Workspace\Curso DotNet\Exercício01\didadicos.redimensionador\didadicos.redimensionador\obj\Debug\net7.0\ref\didadicos.redimensionador.dll
