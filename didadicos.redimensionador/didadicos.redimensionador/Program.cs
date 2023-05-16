@@ -34,20 +34,21 @@ static void Redimensionar()
 
     while (true)
     {
-        //Meu programa vai olhar para a pasta de entrada
-        //SE tiver arquivo ele irá redimensionar
-        var arquivos_entrada = Directory.EnumerateFiles(diretorio_entrada);
+       
+        var arquivosEntrada = Directory.EnumerateFiles(diretorio_entrada);
 
-        foreach (var item in arquivos_entrada )
+       
+
+        int tamanho = 200;
+
+        foreach (var arquivo in arquivosEntrada)
         {
-            Console.WriteLine(item);
-        };
-
-        //Ler o tamanho que irá redimensionar
-        //Redimensiona
-        //Copia os arquivos redimensionados para a pasta de redimensionados
-        //Move o arquivo de entrada para a pasta de finalizados
-
+            FileStream fileStream = new FileStream(arquivo, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite);
+            FileInfo fileInfo = new FileInfo(arquivo);
+          
+        }
         Thread.Sleep(new TimeSpan(0, 0, 3));
     }
 }
+
+static 

@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "+E4t0mDP+Uz48VzqWkAkfwzwVDluoFmW++s0ZKjDfsmRVMW2vx7/aWgQ9UsKsSZFY89BWLAkv0LljuR0Gepycw==",
+  "dgSpecHash": "S2KCoy8Ssq810G5mnhNRsUGHYlgIIwDvGcn9ZcmaP3yIe5nS6YMh+joTc63xSc+ExVmDcQwll8OFevGmNn29Kg==",
   "success": true,
   "projectFilePath": "C:\\Workspace\\Curso DotNet\\Exercício01\\didadicos.redimensionador\\didadicos.redimensionador\\didadicos.redimensionador.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
