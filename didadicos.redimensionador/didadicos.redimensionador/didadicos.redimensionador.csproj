@@ -7,4 +7,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Arquivos_Finalizados\**" />
+    <Compile Remove="Arquivos_Redimensionados\**" />
+    <EmbeddedResource Remove="Arquivos_Finalizados\**" />
+    <EmbeddedResource Remove="Arquivos_Redimensionados\**" />
+    <None Remove="Arquivos_Finalizados\**" />
+    <None Remove="Arquivos_Redimensionados\**" />
+  </ItemGroup>
+
 </Project>
