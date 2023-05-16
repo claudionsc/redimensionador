@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Threading;
 
 Console.WriteLine("Iniciando nosso projeto");
@@ -32,23 +33,53 @@ static void Redimensionar()
     }
     #endregion
 
+    FileStream fileStream;
+    FileInfo fileInfo;
+
     while (true)
     {
        
         var arquivosEntrada = Directory.EnumerateFiles(diretorio_entrada);
 
-       
-
-        int tamanho = 200;
+        int novaAltura = 200;
 
         foreach (var arquivo in arquivosEntrada)
         {
-            FileStream fileStream = new FileStream(arquivo, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite);
-            FileInfo fileInfo = new FileInfo(arquivo);
-          
+            fileStream = new FileStream(arquivo, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite);
+            fileInfo = new FileInfo(arquivo);
+
+            string caminho = Environment.CurrentDirectory + @"\" + diretorio_redimensionados 
+                + @"\" + DateTime.Now.Millisecond.ToString() +"_"+ fileInfo.Name;
+
+            string caminhoFinalizado = Environment.CurrentDirectory + @"\" + diretorio_finalizados 
+                + @"\" + fileInfo.Name;
+
+            Redimensionador(Image.FromStream(fileStream), novaAltura, caminho);
+
+            fileStream.Close();
+
+            fileInfo.MoveTo(caminhoFinalizado);
         }
-        Thread.Sleep(new TimeSpan(0, 0, 3));
+        Thread.Sleep(new TimeSpan(0, 0, 5));
     }
 }
 
-static 
+
+
+
+static void Redimensionador(Image imagem, int altura, string caminho)
+{
+    double ratio = (double)altura / imagem.Height;
+    int novaLargura = (int)(imagem.Width * ratio);
+    int novaAltura = (int)(imagem.Height * ratio);
+
+    Bitmap novaImagem = new Bitmap(novaLargura, novaAltura);
+
+    using (Graphics g = Graphics.FromImage(novaImagem))
+    {
+        g.DrawImage(imagem, 0, 0, novaLargura, novaAltura);
+    }
+
+    novaImagem.Save(caminho);
+    imagem.Dispose();
+}
